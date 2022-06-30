@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Fintech</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="container ">
+        <div class="row ">
+            <div class="col-10 ms-3 ">
+                <h3 class="saldo"> Saldo </h3>
+            </div>
+            <div class="col-10 ms-3">
+                <h2 class="float-Start valorSaldo">R$72.026</h2>
+            </div>
+            <div class="col-8 mt-3 ms-3">
+                <p>Ver dinheiro alocado</p>
+            </div>
+            <div class="col-3">
+                <img src="imagens/icons/seta-dashboard.png" class="img-fluid float-end margem-icone">
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <main class="container overflow-hidden">
+
+        <div class="row mb-3 mt-4 cartao-dash shadow">
+
+            <div class="col-8">
+                <h5>Cartão XXX</h5>
+            </div>
+
+            <div class="col-4 ">
+                <h5 class="float-end">Débito</h5>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center mt-4 ">
+                <h2 class="fonteNumCartao"> 6420 1522 8795 0124 </h2>
+            </div>
+
+            <div class="col-8 mt-4">
+                <h5>João Soares</h5>
+            </div>
+
+            <div class="col-4 mt-3">
+                <img src="imagens/visa.png" alt="bandeira-visa" id="visa" class="img-fluid float-end margem-icone">
+            </div>
+
+        </div>
+
+        <div class="row mb-3 mt-4 vertical d-flex">
+
+            <div class="vr v-red ms-2"></div>
+            <div class="col-5">
+                <h2 class="text-center mt-1">R$72.026</h2>
+            </div>
+
+            <div class="col-6 ">
+                <button type="button" id="distribuir" class="btn float-end ">
+                    Distribuir
+                </button>
+            </div>
+
+        </div>
+
+        <div class="row mt-5 d-flex">
+            <h4 class="alocacao ms-3"> Últimas Alocações </h4>
+        </div>
+        <hr class="divider">
+        <div>
+
+            <div class="container-fluid">
+
+                <div class="row ps-4 pe-4 pt-3">
+
+                    <div class="col-2 mb-3">
+                        <img src="imagens/tesla.png" alt="tesla" class="img-fluid rounded img-thumbnail">
+                    </div>
+
+                    <div class="col-10 mb-3">
+                        <h4 class="d-inline">Tesla</h4>
+                        <h4 class="float-end">R$ 300</h4>
+                        <br>
+                        <span class="rodape">12:40am  21 Jun 2022</span>
+                        <br>
+                        <span class="rodapeVerde d-inline float-end">2.0%</span>   
+                        <img src="imagens/icons/greenArrow.png" alt="subiu" class="img-fluid setaVerde float-end">  
+               
+                    </div>
+
+                    <hr>
+
+                    <div class="col-2">
+                        <img src="imagens/bitcoin.png" alt="bitcoin" class="img-fluid rounded img-thumbnail">
+                    </div>
+
+                    <div class="col-10">
+                        <h4 class="d-inline">Bitcoin</h4>
+                        <h4 class="float-end">R$ 25.550</h4>
+                        <br>
+                        <span class="rodape d-inline">12:40am  21 Jun 2022</span>
+                        <br>
+                        <span class="rodapeVerde d-inline float-end">2.0%</span>   
+                        <img src="imagens/icons/greenArrow.png" alt="subiu" class="img-fluid setaVerde float-end">  
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <nav class="navbar fixed-bottom ">
+        <div class="container-fluid justify-content-center nav-fill">
+            <div class="row nav-item">
+                <div class="col-3">
+                    <img src="imagens/icons/carteira2.png" alt="carteira-icon" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="imagens/icons/calendario2.png" alt="calendario-icon" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="imagens/icons/sino2.png" alt="sino-icon" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="imagens/icons/user2.png" alt="user-icon" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <footer class="container fixed-bottom">
+
+        <div class="row" id="nav">
+            <div class="col">
+                <img src="imagens/icons/carteira.png" alt="carteira-icon" class="img-fluid">
+            </div>
+            <div class="col">
+                <img src="imagens/icons/calendario.png" alt="calendario-icon" class="img-fluid">
+            </div>
+            <div class="col">
+                <img src="imagens/icons/sino.png" alt="sino-icon" class="img-fluid">
+            </div>
+            <div class="col">
+                <img src="imagens/icons/user.png" alt="user-icon" class="img-fluid">
+            </div>
+        </div>
+
+
+    </footer>-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
